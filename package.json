@@ -1,0 +1,55 @@
+{
+  "name": "@gluo-nv/backstage-plugin-hetzner-catalog",
+  "version": "placeholder",
+  "description": "Backstage catalog module for Hetzner Cloud integration.",
+  "author": "Gluo NV <info@gluo.be> (https://gluo.be)",
+  "license": "AGPL-3.0",
+  "homepage": "https://github.com/gluobe/backstage-plugin-hetzner-catalog",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gluobe/backstage-plugin-hetzner-catalog.git"
+  },
+  "main": "dist/index.cjs.js",
+  "types": "dist/index.d.ts",
+  "backstage": {
+    "role": "backend-plugin-module",
+    "pluginId": "catalog",
+    "pluginPackage": "@backstage/plugin-catalog-backend"
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.cjs.js",
+    "types": "dist/index.d.ts"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "backstage-cli package start",
+    "build": "backstage-cli package build",
+    "lint": "backstage-cli package lint",
+    "test": "backstage-cli package test",
+    "clean": "backstage-cli package clean",
+    "prepack": "backstage-cli package prepack",
+    "postpack": "backstage-cli package postpack"
+  },
+  "dependencies": {
+    "@backstage/backend-plugin-api": "^1.0.0",
+    "@backstage/catalog-model": "^1.7.3",
+    "@backstage/config": "^1.2.0",
+    "@backstage/plugin-catalog-node": "^1.16.3"
+  },
+  "devDependencies": {
+    "@backstage/backend-test-utils": "^1.0.0",
+    "@backstage/cli": "^0.27.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "typescript": "^5.8.2"
+  },
+  "peerDependencies": {
+    "@backstage/config": "^1.2.0",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "packageManager": "yarn@4.8.1+sha512.bc946f2a022d7a1a38adfc15b36a66a3807a67629789496c3714dd1703d2e6c6b1c69ff9ec3b43141ac7a1dd853b7685638eb0074300386a59c18df351ef8ff6"
+}
