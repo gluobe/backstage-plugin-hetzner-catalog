@@ -7,7 +7,7 @@ import { HetznerProvider } from './HetznerProvider';
 
 export const catalogModuleHetznerProvider = createBackendModule({
   pluginId: 'catalog',
-  moduleId: 'hetzner-provider',
+  moduleId: 'hetzner-entity-provider',
   register(env) {
     env.registerInit({
       deps: {

@@ -75,7 +75,7 @@ The following sections will help you get the module setup and running.
 1. Install the backend catalog module:
 
    ```bash
-   yarn --cwd packages/backend add @gluobe/backstage-plugin-catalog-backend-module-hetzner
+   yarn --cwd packages/backend add @gluo-nv/backstage-plugin-catalog-backend-module-hetzner
    ```
 
 ### Development
