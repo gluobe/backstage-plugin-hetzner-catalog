@@ -1,13 +1,13 @@
 {
-  "name": "@gluo-nv/backstage-plugin-hetzner-catalog",
+  "name": "@gluo-nv/backstage-plugin-catalog-backend-module-hetzner",
   "version": "0.1.0",
   "description": "Backstage catalog module for Hetzner Cloud integration.",
   "author": "Gluo NV <info@gluo.be> (https://gluo.be)",
   "license": "AGPL-3.0",
-  "homepage": "https://github.com/gluobe/backstage-plugin-hetzner-catalog",
+  "homepage": "https://github.com/gluobe/hetzner-backstage-plugin",
   "repository": {
     "type": "git",
-    "url": "git@github.com:gluobe/backstage-plugin-hetzner-catalog.git"
+    "url": "git@github.com:gluobe/hetzner-backstage-plugin.git"
   },
   "main": "dist/index.cjs.js",
   "types": "dist/index.d.ts",
